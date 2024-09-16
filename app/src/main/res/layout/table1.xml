@@ -1,0 +1,29 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+    <TableRow
+        android:padding="18dp">
+        <TextView
+            android:text="Abrir"
+            android:layout_weight="1"
+            android:padding="3dip" />
+        <TextView
+            android:text="Control + O"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Guardar"
+            android:layout_weight="1"
+            android:padding="3dip" />
+        <TextView
+            android:text="Control + S"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:padding="3dip" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    >
+    <!-- Cabecera de la tabla -->
+
+    <TableRow
+         android:background="@color/green"
+        android:layout_marginBottom="8dp"
+        >
+
+        <TextView
+            android:text="Producto"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="Precio"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="Cantidad"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+    </TableRow>
+
+
+    <!-- Primera fila de datos -->
+
+    <TableRow
+        android:background="@color/white"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:text="Jabon de mano"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:text="$ 350"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:text="2"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+    </TableRow>
+
+    <!-- Primera fila de datos -->
+
+    <TableRow
+        android:background="@color/white"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:text="Jabon de mano"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:text="$ 350"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:text="2"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+    </TableRow>
+
+    <!-- Primera fila de datos -->
+
+    <TableRow
+        android:background="@color/white"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:text="Jabon de mano"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:text="$ 350"
+            android:padding="10dp"
+            android:textAlignment="cent
+            er"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:text="2"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textSize="16sp"/>
+
+    </TableRow>
+</TableLayout>

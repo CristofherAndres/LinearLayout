@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LinearLayout</string>
+    <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="olvidaste_tu_contrase_a">¿Olvidaste tu contraseña?</string>
+</resources>
